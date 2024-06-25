@@ -1,6 +1,6 @@
 <script setup>
 import { ref } from 'vue';
-import { dzien2_backend } from 'declarations/day2_backend/index';
+import { day2_backend } from 'declarations/day2_backend/index';
 import Blog from './components/Blog.vue';
 let greeting = ref('');
 
