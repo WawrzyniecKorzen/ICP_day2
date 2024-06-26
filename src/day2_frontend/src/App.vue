@@ -16,16 +16,10 @@ async function handleSubmit(e) {
 </script>
 
 <template>
-  <main>
+  <main class ="container mx=auto">
     <img src="/logo2.svg" alt="DFINITY logo" />
     <br />
     <br />
-    <form action="#" @submit="handleSubmit">
-      <label for="name">Enter your name: &nbsp;</label>
-      <input id="name" alt="Name" type="text" />
-      <input id="numer" alt="Numer" type="number" />
-      <button type="submit">Click Me!</button>
-    </form>
     <section id="greeting">{{ greeting }}</section>
     <Blog />
   </main>
